@@ -84,7 +84,7 @@ const HeroSection = () => {
       </div>
 
       {/* right sidebar */}
-      <div className={`flex border fixed shadow-xl bg-white md:w-[30vw]  top-32 md:top-20 ${open?"md:-right-48 lg:-right-80 -right-[180px]":"right-0 sm:max-w-xs"} h-fit`}>
+      <div className={`flex border fixed shadow-xl transition-all duration-200 bg-white md:w-[30vw]  top-32 md:top-20 ${open?"md:-right-48 lg:-right-80 -right-[180px]":"right-0 sm:max-w-xs"} h-fit`}>
         <div onClick={()=>setOpen(!open)}className="bg-black cursor-pointer text rounded-l-lg flex flex-col items-center gap-4 p-2 text-white">
           <div className="text-4xl">x</div>
           <div className="textOrientation h-fit ">Notice Board</div>
