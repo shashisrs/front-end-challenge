@@ -6,7 +6,7 @@ import InputAssetArticle from "./InputAssetArticle";
 import DisplayAssetArticle from "./DisplayAssetArticle";
 const AssetContainerTemplate = ({ assets }) => {
   return (
-    <div className="flex flex-wrap gap-16 justify-center">
+    <div className="flex flex-wrap gap-20 justify-center">
       {assets.map((item, index) => {
         return (
           <div className="w-[100%] md:w-[45%] max-w-[480px] object-contain max-h-[580px] h-[580px]  border shadow-xl rounded-lg">
