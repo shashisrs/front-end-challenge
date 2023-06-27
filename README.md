@@ -1,5 +1,5 @@
 
-Checkout[live website](https://dt-tech-front-end-assignment.netlify.app/).
+Checkout [live website](https://dt-tech-front-end-assignment.netlify.app/).
 
 
 
